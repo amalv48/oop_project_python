@@ -5,4 +5,3 @@ from pyspark.sql.dataframe import DataFrame
 from pyspark.sql import SparkSession
 
 
-print("hellow")
