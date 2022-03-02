@@ -6,9 +6,8 @@ from pyspark.sql import SparkSession
 
 class Sparkclass:
 
-    def __init__(self, config:dict):
-        self.config = config
+    def __init__(self, myvar):
+        self.myvar = myvar
 
-    def sparkStart(self, kwargs:dict) -> SparkSession:
-    
-        print(self.config)
+    def sparkStart(self):
+        print(self.myvar)
